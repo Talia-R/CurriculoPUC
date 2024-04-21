@@ -1,0 +1,76 @@
+#sectionPageRepository p {
+  padding: 0;
+  margin: 0;
+}
+
+#sectionPageRepository ul {
+  padding-left: 0 !important;
+}
+
+#sectionPageRepository li:not(:last-child) {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+#sectionPageRepository li:nth-child(2),
+#sectionPageRepository li:nth-child(3),
+#sectionPageRepository li:nth-child(4) > div {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5rem;
+}
+
+#sectionPageRepository h2 {
+  font: var(--font-subtitle);
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+  color: var(--c-2);
+}
+
+#sectionPageRepository li:last-child h2 {
+  margin-bottom: 0.8rem;
+}
+
+#sectionPageRepository .subtitle::after {
+  color: var(--c-2);
+}
+
+.repository-topics p {
+  display: flex;
+  background-color: var(--c-2);
+  color: #fff;
+  padding: 0.5rem 0.5rem !important;
+  border-radius: 0.3125rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.repository-topics-list {
+  display: flex;
+  gap: 1.5rem;
+}
+
+#sectionPageRepository ul a {
+  display: block;
+}
+
+#sectionPageRepository ul a:hover {
+  color: var(--c-1);
+}
+
+#sectionPageRepository ul li:nth-child(3) i {
+  color: var(--c-3);
+}
+
+@media (max-width: 650px) {
+  #sectionPageRepository li:nth-child(2),
+  #sectionPageRepository li:nth-child(3) {
+    padding-right: 1rem;
+  }
+  #sectionPageRepository .subtitle::after {
+    width: 5px;
+    left: -10px;
+    border-radius: 50%;
+  }
+}

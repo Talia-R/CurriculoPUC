@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto de currículo feito a partir de um wireframe dado na aula de Interfaces Web da PUC Minas">
+  <title> FRONT | Natalia Reis</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/global.css">
+  <link rel="stylesheet" href="/assets/css/paginas/home.css">
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="header-bg">
+      <div class="header-container">
+
+        <div class="logo">
+          <a href="#">Natália<span>Reis</span></a>
+        </div>
+
+        <nav class="main-nav" aria-label="Navegação Primária">
+
+          <div class="dropdown btn-mobile">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="#sectionProfile">
+                  Perfil
+                </a>
+              </li>
+              <li><a class="dropdown-item" href="#sectionRepository">
+                  Repositórios
+                </a>
+              </li>
+              <li><a class="dropdown-item" href="#sectionSlider">
+                  Artigos
+                </a>
+              </li>
+              <li><a class="dropdown-item" href="#sectionColleagues">Devs Associados
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul id="menu">
+
+            <li>
+              <a href="#sectionProfile">
+                Perfil
+              </a>
+            </li>
+
+            <li>
+              <a href="#sectionRepository">
+                Repositórios
+              </a>
+            </li>
+
+            <li>
+              <a href="#sectionSlider">
+                Artigos
+              </a>
+            </li>
+
+            <li>
+              <a href="#sectionColleagues">
+                Devs Associados
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="sectionProfile">
+
+        <h2 class="subtitle">
+          Perfil
+        </h2>
+
+        <div class="profile-container">
+          <div class="profile-photo">
+            <img src="./assets/img/profile_photo.jpg" alt="Foto de Perfil">
+          </div>
+          <div class="profile-text">
+            <h3>
+              Natália dos Reis Santos
+            </h3>
+            <p>
+              Me encontrei no mundo da tecnologia e estou embarcando em uma jornada para me tornar uma desenvolvedora com foco em frontend. Com um forte desejo de aprender e crescer, estou me comprometendo em dominar as principais linguagens de programação e frameworks essenciais para criar interfaces de usuário intuitivas, acessivas e responsivas. Sempre busco oportunidades para aplicar meu conhecimento recém-adquirido em projetos desafiadores, onde possa contribuir de forma significativa e continuar aprimorando minhas habilidades.
+            </p>
+            <div>
+              <p>Localidade: Belo Horizonte, Minas Gerais</p>
+              <p>
+                <i class="fa-solid fa-user"></i>
+                0
+              </p>
+            </div>
+            <ul class="profile-icons">
+
+              <li>
+                <a href="https://github.com/Talia-R" aria-label="Perfil do Github" target="_blank">
+                  <i class="logoGithub fa-brands fa-github">
+                  </i>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/taliareis/" aria-label="Perfil do Linkedin" target="_blank">
+                  <i class="logolinkedin fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="mailto:natalia.reis@sga.pucminas.br" aria-label="link de redirecionamento para envio de email">
+                  <i class="logoemail fa-solid fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="sectionRepository">
+        <h2 class="subtitle">
+          Repositórios
+        </h2>
+
+        <div class="card-group sectionRepository-container">
+
+          <div class="card">
+            <a href="/pages/repo-bikcraft.html">
+              <div class="card-body repository-preview">
+                <h3 class="card-title">Bikcraft</h3>
+                <p class="card-text">Projeto desenvolvido a partir de aulas da Origamid onde desenvolvi um site fictício e completamente responsivo.</p>
+
+                <div class="card-footer card-icons">
+                  <p><i class="fa-solid fa-star"></i>
+                    0
+                  </p>
+                  <p><i class="fa-solid fa-user"></i>
+                    0
+                  </p>
+                </div>
+
+              </div>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="/pages/repo-fortuneCookie.html">
+              <div class="card-body repository-preview">
+                <h3 class="card-title">Fortune Cookie</h3>
+                <p class="card-text">Projeto desenvolvido a partir de aulas da Rocketseat onde desenvolvi um site com foco de geração de mensagens aleatórias.</p>
+
+                <div class="card-footer card-icons">
+                  <p><i class="fa-solid fa-star"></i>
+                    0</p>
+                  <p><i class="fa-solid fa-user"></i>
+                    0</p>
+
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="/pages/repo-projetoIMC.html">
+              <div class="card-body repository-preview">
+                <h3 class="card-title">Projeto IMC</h3>
+                <p class="card-text">Projeto desenvolvido a partir de aulas da Rockeseat onde desenvolvi um site para cálculo do IMC.</p>
+
+                <div class="card-footer card-icons">
+                  <p><i class="fa-solid fa-star"></i>
+                    0
+                  </p>
+                  <p><i class="fa-solid fa-user"></i>
+                    0
+                  </p>
+
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="/pages/repo-curriculumProject.html">
+              <div class="card-body repository-preview">
+                <h3 class="card-title">Curriculum-Project</h3>
+                <p class="card-text">Projeto desenvolvido a partir de aulas de Interfaces Web da Puc Minas onde desenvolvi um currículo fictício e responsivo.</p>
+
+                <div class="card-footer card-icons">
+                  <p><i class="fa-solid fa-star"></i>
+                    0
+                  </p>
+                  <p><i class="fa-solid fa-user"></i>
+                    0
+                  </p>
+
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="sectionSlider">
+
+      <h2 class="subtitle">
+        Conteúdo Sugerido
+      </h2>
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active" data-bs-interval="7000">
+            <a href="https://www.cnnbrasil.com.br/tecnologia/mulheres-na-tecnologia/" target="_blank">
+              <img src="./assets/img/christina-wocintechchat-com-UcZcsHSp8o4-unsplash.jpg" class="d-block w-100" alt="Várias mulheres debatendo em uma mulheres-na-tecnologia">
+              <div class="carousel-caption d-none d-md-block slider-text">
+                <h6>Mulheres na Tecnologia</h6>
+                <p>Mulheres na tecnologia: cenário, desafios e nomes que marcaram a história</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="5000">
+            <a href="https://olhardigital.com.br/2024/04/15/medicina-e-saude/ingresso-da-ia-generativa-na-saude-gera-controversias/" target="_blank">
+              <img src="./assets/img/ia-saude.jpg" class="d-block w-100" alt="Médico segurando um Tablet de onde se projeta de forma 3D vários ícones referentes a tecnologia">
+
+              <div class="carousel-caption d-none d-md-block slider-text">
+                <h6>IA e Saúde
+                </h6>
+                <p>
+                  Preocupações com a entrada da IA na saúde
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="https://medium.com/reprogramabr/como-escrever-html-com-acessibilidade-eb5fb1a6af5a" target="_blank">
+              <img src="./assets/img/acessibilidade.jpg" class="d-block w-100" alt="Computador ligado a uma linha braile">
+
+              <div class="carousel-caption d-none d-md-block slider-text">
+                <h6>HTML com acessibilidade
+                </h6>
+                <p>
+                  Você pensa em acessibilidade quando está desenvolvendo um site?
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="https://www.developer-tech.com/news/2024/apr/10/github-updates-innovation-graph-developer-trends/" target="_blank">
+              <img src="./assets/img/github-innovation-graph-developer-trends-research-report-study-coding-programming-1536x1152.jpg" class="d-block w-100" alt="Lâmpada em destaque aparece posicionada na frente de um sol nascente e dá ilusão que a lâmpada está acessa">
+
+              <div class="carousel-caption d-none d-md-block slider-text">
+                <h6>Github: Últimas Tendências
+                </h6>
+                <p>
+                  GitHub atualiza o 'Innovation Graph' com as últimas tendências para desenvolvedores
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="https://www.developer-tech.com/news/2024/mar/26/backend-software-engineers-are-designers-too/" target="_blank">
+              <img src="./assets/img//Backend-v1.jpg" class="d-block w-100" alt="desenho abstrato de uma personagem trabalhando com diferentes tipos de datas">
+            </a>
+            <div class="carousel-caption d-none d-md-block slider-text">
+              <h6>Back-end & Designer
+              </h6>
+              <p>
+                Engenheiros de software back-end também são designers
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <a href="https://medium.com/front-end-weekly/javascript-behind-the-scenes-df44f9dd1c42" target="_blank">
+              <img src="./assets/img/mikey-harris-zasPTUnrWnI-unsplash.jpg" class="d-block w-100" alt="notebook aberto e desligado. Ao lado está um livro e uma caneta em cima">
+              <div class="carousel-caption d-none d-md-block slider-text">
+                <h6>JavaScript<br>Por Trás das Cenas
+                </h6>
+                <p>
+                  Tudo em JavaScript ocorre dentro do contexto de execução.
+                </p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+
+
+    <section id="sectionColleagues">
+      <h2 class="subtitle">
+        Colegas de Trabalho
+      </h2>
+      <div>
+        <ul>
+          <li class="colleagues-container">
+            <a href="https://github.com/Guilherme1067" target=" _blank">
+              <div class="colleagues-photo">
+                <img src="./assets/img/49403321.jpg" alt="foto do perfil do github">
+              </div>
+              <h4>Guilherme Reis</h4>
+            </a>
+          </li>
+          <li class="colleagues-container">
+            <a href="https://github.com/isabelaasales" target=" _blank">
+              <div class="colleagues-photo">
+                <img src="./assets/img/161255285.jpg" alt="foto do perfil do github">
+              </div>
+              <h4>Isabela Sales</h4>
+            </a>
+          </li>
+          <li class="colleagues-container">
+            <a href="https://github.com/gabriellananda" target=" _blank">
+              <div class="colleagues-photo">
+                <img src="./assets/img/102271147.jpg" alt="Foto perfil do Github">
+              </div>
+              <h4>Gabriella Nanda</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <footer id="sectionFooter">
+    <p>
+      Natália dos Reis Santos | Engenharia de Software - PUC Minas
+    </p>
+    <p>
+      Todos os direitos reservados
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/1cb63cef62.js" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
